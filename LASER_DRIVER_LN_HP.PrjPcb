@@ -455,12 +455,12 @@ Variation29=Designator=R72|UniqueId=\HYSYBAUS\NSCMPTST|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=REV
-Value=0.2
-
-[Parameter2]
 Name=PROJECT_NAME
 Value=AI ARTIQ DRIVER
+
+[Parameter2]
+Name=REV
+Value=0.2
 
 [Configuration1]
 Name=Default Configuration
@@ -1437,10 +1437,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Library Name And Type
+ComponentLibraryIdentifier0=Inductors & Transformers.DbLib/Inductors THD
+ComponentDesignItemID0=IND_450UH_35%_TRACO_TCK-048
+ComponentSymbolReference0=Inductor Common Mode 1Dot-2 4Dot-3
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1454,6 +1460,62 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Author
+ParameterUpdate0=1
+ParameterName1=Comment
+ParameterUpdate1=1
+ParameterName2=Component Kind
+ParameterUpdate2=1
+ParameterName3=Component Type
+ParameterUpdate3=1
+ParameterName4=ComponentHeight
+ParameterUpdate4=1
+ParameterName5=CreateDate
+ParameterUpdate5=1
+ParameterName6=Description
+ParameterUpdate6=1
+ParameterName7=Footprint
+ParameterUpdate7=1
+ParameterName8=HelpURL
+ParameterUpdate8=1
+ParameterName9=LatestRevisionDate
+ParameterUpdate9=1
+ParameterName10=Library Reference
+ParameterUpdate10=1
+ParameterName11=Manufacturer
+ParameterUpdate11=1
+ParameterName12=Manufacturer Part Number
+ParameterUpdate12=1
+ParameterName13=Mounted
+ParameterUpdate13=1
+ParameterName14=Part Description
+ParameterUpdate14=1
+ParameterName15=Part Number
+ParameterUpdate15=1
+ParameterName16=Pin Count
+ParameterUpdate16=1
+ParameterName17=Power
+ParameterUpdate17=1
+ParameterName18=Resistance
+ParameterUpdate18=1
+ParameterName19=Sense
+ParameterUpdate19=1
+ParameterName20=SMD
+ParameterUpdate20=1
+ParameterName21=Socket
+ParameterUpdate21=1
+ParameterName22=Tolerance
+ParameterUpdate22=1
+ParameterName23=Value
+ParameterUpdate23=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=CMDC-9260-6500
+ModelUpdate0=1
+ModelType1=PCBLIB
+ModelName1=IND_TRACO_TCK-048
+ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
