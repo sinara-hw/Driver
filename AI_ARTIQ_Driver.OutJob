@@ -21,7 +21,7 @@ TargetOutputMedium=Folder Structure
 VariantName=[No Variations]
 VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=hp deskjet 920c
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -36,8 +36,8 @@ OutputMedium4_Type=Multimedia
 OutputType1=Schematic Print
 OutputName1=Schematic Prints
 OutputCategory1=Documentation
-OutputDocumentPath1=
-OutputVariantName1=
+OutputDocumentPath1=[Project Physical Documents]
+OutputVariantName1=LNsiHPsi
 OutputEnabled1=0
 OutputEnabled1_OutputMedium1=0
 OutputEnabled1_OutputMedium2=1
@@ -55,7 +55,7 @@ OutputVariantName2=
 OutputEnabled2=1
 OutputEnabled2_OutputMedium1=0
 OutputEnabled2_OutputMedium2=0
-OutputEnabled2_OutputMedium3=1
+OutputEnabled2_OutputMedium3=2
 OutputEnabled2_OutputMedium4=0
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
@@ -71,9 +71,35 @@ Configuration2_Name5=VisibleOrder
 Configuration2_Item5=Comment=120|Footprint=120|Description=120|Designator=120|Quantity=120|Manufacturer=100|Manufacturer Part Number=347
 Configuration2_Name6=VisibleOrder_Flat
 Configuration2_Item6=Comment=120|Footprint=120|Description=120|Designator=120|Quantity=120|Manufacturer=100|Manufacturer Part Number=347
+OutputType3=Gerber
+OutputName3=Gerber Files
+OutputCategory3=Fabrication
+OutputDocumentPath3=
+OutputVariantName3=
+OutputEnabled3=1
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=0
+OutputEnabled3_OutputMedium3=1
+OutputEnabled3_OutputMedium4=0
+OutputDefault3=0
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=200000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=True|GenerateDRCRulesFile=True|GenerateReliefShapes=True|GenerateReports=True|GerberUnit=Imperial|GerberUnit=Imperial|IncludeUnconnectedMidLayerPads=False|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=5|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16973830~1,16973832~1,16973834~1,16777217~1,16777218~1,16777219~1,16842751~1,16973835~1,16973833~1,16973831~1,16908289~1|PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|DocumentPath=D:\QUARTIQ\Driver\LASER_DRIVER_LN_HP.PcbDoc
+OutputType4=Pick Place
+OutputName4=Generates pick and place files
+OutputCategory4=Assembly
+OutputDocumentPath4=
+OutputVariantName4=
+OutputEnabled4=1
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=3
+OutputEnabled4_OutputMedium4=0
+OutputDefault4=0
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=True|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:SMD,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58|Column#18=Name:Manufacturer1 Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37|Column#19=Name:Pitch,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52|Column#20=Name:CreateDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28|Column#21=Name:HelpURL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31|Column#22=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:64|Column#23=Name:Case,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19|Column#24=Name:Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48|Column#25=Name:Manufacturer1 ComponentHeight,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35|Column#26=Name:Mounted,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41|Column#27=Name:Category,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20|Column#28=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53|Column#29=Name:Mount,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40|Column#30=Name:Packaging,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46|Column#31=Name:Family,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30|Column#32=Name:Part Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47|Column#33=Name:PressFit,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54|Column#34=Name:Match Code,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38|Column#35=Name:TC,Fixed:False,Metric:False,Visible:False,Sort:None,Position:61|Column#36=Name:Operating Temperature Max,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42|Column#37=Name:Pin Count,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50|Column#38=Name:Resistance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56|Column#39=Name:Working Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:65|Column#40=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:62|Column#41=Name:Sense,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57|Column#42=Name:ComponentHeight,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23|Column#43=Name:Device,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29|Column#44=Name:Application,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16|Column#45=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27|Column#46=Name:Status,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60|Column#47=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33|Column#48=Name:Bonding,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18|Column#49=Name:Orientation,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44|Column#50=Name:Socket,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59|Column#51=Name:Modularity,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39|Column#52=Name:PCB/Cable/Panel,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49|Column#53=Name:Component Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22|Column#54=Name:Author,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17|Column#55=Name:Manufacturer1 Example,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36|Column#56=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26|Column#57=Name:PackageDescription,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45|Column#58=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25|Column#59=Name:Rated Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55|Column#60=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:63|Column#61=Name:LatestRevisionDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32|Column#62=Name:Color,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21|Column#63=Name:Operating Temperature Min,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43|Column#64=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24|Column#65=Name:Pin Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51|Column#66=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:True,Sort:None,Position:34|DocumentPath=D:\QUARTIQ\Driver\LASER_DRIVER_LN_HP.PcbDoc
 
 [PublishSettings]
-OutputFilePath2=\driver_3.pdf
+OutputFilePath2=D:\QUARTIQ\Driver\Project Outputs for Laser Driver\AI-ARTIQ Driver v0.2.pdf
 ReleaseManaged2=1
 OutputBasePath2=Project Outputs for Laser Driver
 OutputPathMedia2=
@@ -81,7 +107,7 @@ OutputPathMediaValue2=
 OutputPathOutputer2=[Output Type]
 OutputPathOutputerPrefix2=
 OutputPathOutputerValue2=
-OutputFileName2=AI-ARTIQ Driver v0.2.pdf
+OutputFileName2=AI-ARTIQ Driver v1.0.pdf
 OutputFileNameMulti2=
 UseOutputNameForMulti2=0
 OutputFileNameSpecial2=
@@ -152,11 +178,11 @@ WmvVideoCodecName4=Windows Media Video V7
 WmvQuality4=80
 
 [GeneratedFilesSettings]
-RelativeOutputPath2=\driver_3.pdf
+RelativeOutputPath2=D:\QUARTIQ\Driver\Project Outputs for Laser Driver\AI-ARTIQ Driver v0.2.pdf
 OpenOutputs2=1
 RelativeOutputPath3=D:\QUARTIQ\Driver\Project Outputs for Laser Driver\
 OpenOutputs3=1
-AddToProject3=1
+AddToProject3=0
 TimestampFolder3=0
 UseOutputName3=0
 OpenODBOutput3=0
