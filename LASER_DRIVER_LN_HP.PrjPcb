@@ -42,7 +42,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=LNsiHPsi
+CurrentVariant=LNsoHPso
 
 [Preferences]
 PrefsVaultGUID=
@@ -308,7 +308,7 @@ UniqueID=3C56DA8C-1465-46FF-B378-575DF7703527
 Description=LNsoHPso
 AllowFabrication=0
 ParameterCount=0
-VariationCount=63
+VariationCount=64
 Variation1=Designator=R38|UniqueId=\QFRDHVFY|Kind=1|AlternatePart= 
 Variation2=Designator=R40|UniqueId=\KTMNCHSF|Kind=1|AlternatePart= 
 Variation3=Designator=R39|UniqueId=\YANYCPKI|Kind=1|AlternatePart= 
@@ -372,6 +372,7 @@ Variation60=Designator=R146B|UniqueId=\LDIYMXOG\OCPRHBMI|Kind=1|AlternatePart=
 Variation61=Designator=R147B|UniqueId=\LDIYMXOG\MJLRFBWR|Kind=1|AlternatePart= 
 Variation62=Designator=C128B|UniqueId=\LDIYMXOG\FJTJSJLF|Kind=1|AlternatePart= 
 Variation63=Designator=R131B|UniqueId=\LDIYMXOG\VEDGLADF|Kind=1|AlternatePart= 
+Variation64=Designator=IC30|UniqueId=\SFLYEXGS\TSRDQVOL|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -379,7 +380,7 @@ UniqueID=FBC6D26F-694E-42FA-81E4-2D7E93010B31
 Description=LNsiHPso
 AllowFabrication=0
 ParameterCount=0
-VariationCount=63
+VariationCount=64
 Variation1=Designator=R35|UniqueId=\ABTCREAF|Kind=1|AlternatePart= 
 Variation2=Designator=R37|UniqueId=\RGNAVVOR|Kind=1|AlternatePart= 
 Variation3=Designator=R36|UniqueId=\LGTWGXYG|Kind=1|AlternatePart= 
@@ -443,6 +444,7 @@ Variation60=Designator=T15A|UniqueId=\XPRPHDKV\JWODHVYW|Kind=1|AlternatePart=
 Variation61=Designator=C129A|UniqueId=\XPRPHDKV\XKFHNBFV|Kind=1|AlternatePart= 
 Variation62=Designator=R146A|UniqueId=\XPRPHDKV\OCPRHBMI|Kind=1|AlternatePart= 
 Variation63=Designator=R147A|UniqueId=\XPRPHDKV\MJLRFBWR|Kind=1|AlternatePart= 
+Variation64=Designator=IC30|UniqueId=\SFLYEXGS\TSRDQVOL|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant3]
@@ -450,7 +452,7 @@ UniqueID=67EE8DCA-0864-461D-8819-F61181AE4C8D
 Description=LNsoHPsi
 AllowFabrication=0
 ParameterCount=0
-VariationCount=61
+VariationCount=62
 Variation1=Designator=R38|UniqueId=\QFRDHVFY|Kind=1|AlternatePart= 
 Variation2=Designator=R39|UniqueId=\YANYCPKI|Kind=1|AlternatePart= 
 Variation3=Designator=R40|UniqueId=\KTMNCHSF|Kind=1|AlternatePart= 
@@ -512,6 +514,7 @@ Variation58=Designator=T14A|UniqueId=\XPRPHDKV\XMPJBUII|Kind=1|AlternatePart=
 Variation59=Designator=R128A|UniqueId=\XPRPHDKV\ALOXHPJI|Kind=1|AlternatePart= 
 Variation60=Designator=R151A|UniqueId=\XPRPHDKV\MBGKXMVT|Kind=1|AlternatePart= 
 Variation61=Designator=R152A|UniqueId=\XPRPHDKV\SKJFEBCY|Kind=1|AlternatePart= 
+Variation62=Designator=IC30|UniqueId=\SFLYEXGS\TSRDQVOL|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant4]
@@ -519,7 +522,7 @@ UniqueID=8162DF3A-891D-4446-BC82-52EAA255C767
 Description=LNsiHPsi
 AllowFabrication=0
 ParameterCount=0
-VariationCount=61
+VariationCount=62
 Variation1=Designator=R35|UniqueId=\ABTCREAF|Kind=1|AlternatePart= 
 Variation2=Designator=R37|UniqueId=\RGNAVVOR|Kind=1|AlternatePart= 
 Variation3=Designator=R36|UniqueId=\LGTWGXYG|Kind=1|AlternatePart= 
@@ -581,6 +584,7 @@ Variation58=Designator=C124B|UniqueId=\LDIYMXOG\XNWNXYHQ|Kind=1|AlternatePart=
 Variation59=Designator=C123B|UniqueId=\LDIYMXOG\JASMJHFV|Kind=1|AlternatePart= 
 Variation60=Designator=R126B|UniqueId=\LDIYMXOG\YDTEDYVG|Kind=1|AlternatePart= 
 Variation61=Designator=R125B|UniqueId=\LDIYMXOG\TVJCOMED|Kind=1|AlternatePart= 
+Variation62=Designator=IC30|UniqueId=\SFLYEXGS\TSRDQVOL|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
